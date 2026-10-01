@@ -183,5 +183,23 @@ Change No. of years 7->3 + 🔄 Regenerate -> run_regeneration() re-calls AI wit
 Known gaps (no columns yet): hobby_assessment and chat messages[] don't survive re-login — only profile/report/scenarios do. 
 
 <img width="1273" height="705" alt="Screenshot 2026-10-02 001259" src="https://github.com/user-attachments/assets/207c5290-3b05-4007-9281-c9f728baf15c" />
+<img width="1279" height="704" alt="Screenshot 2026-10-02 001343" src="https://github.com/user-attachments/assets/20cd76c8-b37c-4054-8c79-06e5a60f3969" />
+<img width="1279" height="704" alt="Screenshot 2026-10-02 001442" src="https://github.com/user-attachments/assets/25d6f435-8735-4b74-a5c3-2c28250b1ff7" />
+<img width="892" height="422" alt="Screenshot 2026-10-02 001527" src="https://github.com/user-attachments/assets/eb633553-facb-4944-9e93-6bdb6170c62a" />
+<img width="1280" height="707" alt="Screenshot 2026-10-02 001634" src="https://github.com/user-attachments/assets/2eff2db8-3d3a-4129-aa26-7767dfc7c625" />
+<img width="1278" height="702" alt="Screenshot 2026-10-02 001718" src="https://github.com/user-attachments/assets/b0408571-972a-45e4-8886-cc17c7c3c10b" />
+<img width="813" height="469" alt="Screenshot 2026-10-02 001848" src="https://github.com/user-attachments/assets/f9ca67a4-e00f-4a69-819c-a40cb3e877d6" />
+<img width="795" height="679" alt="Screenshot 2026-10-02 001926" src="https://github.com/user-attachments/assets/ddc6c7ed-5677-4333-a5a0-ebef074c1bee" />
+<img width="713" height="644" alt="Screenshot 2026-10-02 014006" src="https://github.com/user-attachments/assets/a5c356a4-4dea-4974-8c20-ad9a9bb32260" />
+<img width="803" height="239" alt="Screenshot 2026-10-02 014203" src="https://github.com/user-attachments/assets/a9a4aa10-ea04-476b-a81a-4ec9a425c8db" />
+
+
+
+
+
+
+
+
+
 
 
