@@ -1,0 +1,141 @@
+/* GLOBAL AUTH BACKGROUND */
+.stApp {
+    background-color: #FFFFFF !important;
+}
+
+/* FIX THE TOP RIGHT HEADER (DEPLOY & MENU BUTTONS) */
+header[data-testid="stHeader"] {
+    background-color: transparent !important;
+}
+header[data-testid="stHeader"] * {
+    color: #000000 !important;
+}
+
+/* LEFT BLUE PANEL OVERLAY */
+.left-panel {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 55vw;
+    height: 100vh;
+    z-index: 999999;
+    padding: 8vw;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #1A2297;
+    background-image: 
+        radial-gradient(circle at -20% -20%, rgba(255,255,255,0.05) 30%, transparent 31%),
+        radial-gradient(circle at -20% -20%, rgba(255,255,255,0.05) 50%, transparent 51%),
+        radial-gradient(circle at -20% -20%, rgba(255,255,255,0.05) 70%, transparent 71%),
+        linear-gradient(135deg, #3542E3 0%, #1A2297 100%);
+}
+
+.hero-logo { font-size: 6rem; line-height: 1; margin-bottom: 2rem; }
+.hero-text { font-size: 4.5rem; font-weight: 800; line-height: 1.1; margin-bottom: 1.5rem; letter-spacing: -1px; }
+.hero-sub { font-size: 1.15rem; line-height: 1.5; color: #D1D5FF; max-width: 85%; margin-bottom: 8rem; }
+.footer-text { font-size: 0.9rem; color: #8C96F5; }
+
+/* RIGHT STREAMLIT CONTAINER SHIFT */
+.block-container {
+    margin-left: 55vw !important;
+    width: 45vw !important;
+    max-width: 45vw !important;
+    padding: 6vw 5vw !important;
+    background-color: #FFFFFF !important;
+}
+
+/* Right Panel Typography */
+h1, h2, h3, p, label {
+    color: #000000 !important;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif !important;
+}
+
+/* Force spans to be black, but DON'T override their font-family */
+.block-container span {
+    color: #000000 !important;
+}
+
+.brand-title {
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 3rem;
+    color: #000000 !important; 
+}
+
+/* Style the Streamlit tabs to look minimal */
+[data-baseweb="tab-list"] { gap: 15px; margin-bottom: 1rem; }
+[data-baseweb="tab"] { background: transparent !important; border: none !important; padding: 0 0 5px 0 !important; color: #A0A0A0 !important; }
+[data-baseweb="tab"][aria-selected="true"] { color: #000000 !important; font-weight: 800 !important; border-bottom: 2px solid #000000 !important; }
+
+/* ==========================================
+   BULLETPROOF INPUT FIELDS (Forced Light Tone) 
+   ========================================== */
+div[data-testid="stTextInput"] div[data-baseweb="base-input"] {
+    background-color: #F3F4F6 !important; /* Overrides Streamlit's dark grey with a light tone */
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 2px solid #E5E7EB !important;
+    border-radius: 6px 6px 0 0 !important;
+    padding: 2px 10px !important;
+}
+
+/* Ensure the inner wrapper doesn't apply a conflicting background */
+div[data-testid="stTextInput"] div[data-baseweb="input"] {
+    background-color: transparent !important;
+}
+
+/* Active Focus State */
+div[data-testid="stTextInput"] div[data-baseweb="base-input"]:focus-within {
+    border-bottom: 2px solid #e1dede !important;
+    background-color: #FFFFFF !important;
+    box-shadow: none !important;
+}
+
+/* Text Input Styling */
+div[data-testid="stTextInput"] input {
+    color: #f6f3f3 !important;
+    -webkit-text-fill-color: #ffffff !important; 
+    background-color: transparent !important;
+    padding-left: 0 !important;
+    font-size: 1rem !important;
+}
+
+div[data-testid="stTextInput"] input::placeholder {
+    color: #c0c4cb !important;
+    -webkit-text-fill-color: #919191 !important;
+}
+
+/* Fix the Password Eye Icon alignment and color */
+div[data-testid="stTextInput"] svg,
+div[data-testid="stTextInput"] span.material-icons {
+    fill: #000000 !important;
+    color: #fefefe !important;
+}
+
+/* Primary Login Button */
+button[kind="primary"] {
+    background-color: #18181B !important;
+    color: #FFFFFF !important;
+    border: none !important;
+    border-radius: 6px !important;
+    padding: 1.5rem 0 !important;
+    font-weight: 600 !important;
+    margin-top: 1.5rem !important;
+    transition: all 0.6s ease;
+}
+button[kind="primary"]:hover { background-color: #27272A !important; }
+button[kind="primary"] p { color: #FFFFFF !important; }
+
+/* Secondary Google Button */
+button[kind="secondary"] {
+    background-color: #FFFFFF !important;
+    border: 1px solid #E0E0E0 !important;
+    border-radius: 6px !important;
+    padding: 1.5rem 0 !important;
+    font-weight: 600 !important;
+    margin-top: 0.5rem !important;
+}
+button[kind="secondary"] p { color: #000000 !important; }
