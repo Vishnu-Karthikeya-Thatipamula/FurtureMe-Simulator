@@ -180,4 +180,8 @@ save_to_history() -> persist_simulation(2,profile,"No idea",report,4,7) writes 1
 render_report() shows baseline, 4 cards, dataframe table, Plotly wealth lines 0..7 years, verdict + recommended_scenario.
 Logout clears RAM; next login re-hydrates same title from MySQL; click reopens full report. Refresh/server restart no longer loses it.
 Change No. of years 7->3 + 🔄 Regenerate -> run_regeneration() re-calls AI with 3, persists new run_key row.
-Known gaps (no columns yet): hobby_assessment and chat messages[] don't survive re-login — only profile/report/scenarios do.
+Known gaps (no columns yet): hobby_assessment and chat messages[] don't survive re-login — only profile/report/scenarios do. 
+
+<img width="1273" height="705" alt="Screenshot 2026-10-02 001259" src="https://github.com/user-attachments/assets/207c5290-3b05-4007-9281-c9f728baf15c" />
+
+
